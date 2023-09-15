@@ -1,5 +1,6 @@
 import logo from './images/dark-logo.png';
 import './App.css';
+import Container from './components/Container';
 
 function App() {
   return (
@@ -12,12 +13,9 @@ function App() {
           </p>
         </header>
       </div>
-      <div className="Container">
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
+      <Container />
+      <Container />
+      <Container />
     </div>
   );
 }
