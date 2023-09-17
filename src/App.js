@@ -3,6 +3,9 @@ import './App.css';
 import Container from './components/Container';
 
 function App() {
+  const ColumnContainer = () => <Container style={{flexDirection: "column"}} />;
+  const RowContainer = () => <Container style={{flexDirection: "row"}} />;
+
   return (
     <div>
       <div className="App">
@@ -13,9 +16,9 @@ function App() {
           </p>
         </header>
       </div>
-      <Container />
-      <Container />
-      <Container />
+      <ColumnContainer />
+      <ColumnContainer />
+      <RowContainer />
     </div>
   );
 }
