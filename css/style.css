@@ -147,6 +147,10 @@ img {
   cursor: pointer;
 }
 
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
